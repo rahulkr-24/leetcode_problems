@@ -10,7 +10,7 @@ public:
         }
         double t=myPow(x,n/2);
         if(n%2==0){
-            return t*t;}//for that particular testcase
+            return t*t;}
         else
         return x*t*t;
     }
