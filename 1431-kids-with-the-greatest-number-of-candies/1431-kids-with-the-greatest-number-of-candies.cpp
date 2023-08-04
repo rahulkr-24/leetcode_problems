@@ -5,10 +5,7 @@ public:
         vector<bool> kids;
         for(int i=0;i<candies.size();i++)
         {
-            if(candies[i]+extraCandies>=max)
-                kids.push_back(true);
-            else
-                kids.push_back(false);
+            kids.push_back(candies[i]+extraCandies>=max);
         }
         return kids;
     }
