@@ -2,7 +2,8 @@ class Solution {
 public:
     int strStr(string haystack, string needle) {
         int n=needle.length();
-        for(int i=0;i<=haystack.length();i++)
+        int m=haystack.length();
+        for(int i=0;i<=m-n;i++)
         { 
         for(int j=0;j<n;j++)
         {
