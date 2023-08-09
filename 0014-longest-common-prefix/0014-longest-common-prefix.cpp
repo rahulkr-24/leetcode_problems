@@ -11,7 +11,6 @@ public:
             if(strs[j][i]!=ch)
             {
                 match=false;
-                break;
             }
         }
            if(match)
