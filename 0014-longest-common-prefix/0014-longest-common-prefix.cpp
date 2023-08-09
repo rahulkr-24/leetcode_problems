@@ -5,16 +5,15 @@ public:
         bool match=true;
         for(int i=0;i<strs[0].length();i++)
         { 
-            char ch=strs[0][i];
         for(int j=1;j<strs.size();j++)
         {
-            if(strs[j][i]!=ch)
+            if(strs[j][i]!=strs[0][i])
             {
                 match=false;
             }
         }
            if(match)
-                result+=ch;   
+                result+=strs[0][i];   
         }
         return result;
     }
