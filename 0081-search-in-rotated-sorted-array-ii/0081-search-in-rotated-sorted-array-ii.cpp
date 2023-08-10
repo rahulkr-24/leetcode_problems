@@ -18,7 +18,7 @@ public:
 			
             else if(nums[l] <= nums[mid])
             {
-				// target is in first  half
+			
                 if((nums[l] <= target) && (nums[mid] > target))
                     r = mid - 1;
                 else
