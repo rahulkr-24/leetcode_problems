@@ -2,7 +2,6 @@ class Solution {
 public:
     vector<int> plusOne(vector<int>& digits) {
         int n=digits.size();
-        
         digits[n-1]++;
         for(int i=n-1;i>=1;i--)
         {
