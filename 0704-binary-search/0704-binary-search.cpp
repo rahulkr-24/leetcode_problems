@@ -6,10 +6,10 @@ public:
         {   mid=(i+n)/2;
             if(nums.at(mid)==target)
                 return mid;
-            else if(nums[mid]>target)
-                n=mid-1;
-            else
+            else if(nums[mid]<target)
                 i=mid+1;
+            else
+                n=mid-1;
         }
         return -1;
     }
