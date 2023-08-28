@@ -29,9 +29,7 @@ public:
     }
     
     bool empty() {
-        if(!q.size())
-            return true;
-        return false;
+      return q.empty();
         
     }
 };
