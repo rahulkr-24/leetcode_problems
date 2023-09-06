@@ -7,20 +7,22 @@ public:
 //         }
 //         sort(nums1.begin(),nums1.end());
 //        }
-        int index1=0,index2=0;
-        while(index1 < m && index2 < n)
-        {
-            if(nums1[index1]<=nums2[index2])
-               index1++;
-            else
-            {
-                swap(nums1[index1++],nums2[index2]);
-                sort(nums2.begin(),nums2.end());
+           int i = m-1;
+        int j = n-1;
+        int k = m+n-1;
+        while(i>=0 && j>=0){
+            if(nums1[i] > nums2[j]){
+                nums1[k] = nums1[i];
+                i--; k--;
+            }
+            else{
+                nums1[k] = nums2[j];
+                j--; k--;
             }
         }
-        while(index2<n)
-        {
-            nums1[index1++]=nums2[index2++];
+        while(j>=0){
+            nums1[k] = nums2[j];
+            j--; k--;
         }
     }
     
