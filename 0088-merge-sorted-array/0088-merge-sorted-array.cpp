@@ -7,7 +7,7 @@ public:
 //         }
 //         sort(nums1.begin(),nums1.end());
 //        }
-           int i = m-1;
+            int i = m-1;
         int j = n-1;
         int k = m+n-1;
         while(i>=0 && j>=0){
