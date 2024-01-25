@@ -1,5 +1,7 @@
 class Solution {
 public:
+	 //ios_base::sync_with_stdio(false);
+	//cin.tie(NULL);
     int longestCommonSubsequence(string text1, string text2) {
         int n1=text1.length(),n2=text2.length();
         int dp[n1+1][n2+1];
