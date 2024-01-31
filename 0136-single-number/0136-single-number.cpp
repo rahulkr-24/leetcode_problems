@@ -18,5 +18,6 @@ public:
             ans^=x;
         }
         return ans;
+        
     }
 };
