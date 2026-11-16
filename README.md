@@ -32,4 +32,9 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/rahulkr-24/leetcode_problems/tree/master/0003-longest-substring-without-repeating-characters) |
+| [2361-calculate-digit-sum-of-a-string](https://github.com/rahulkr-24/leetcode_problems/tree/master/2361-calculate-digit-sum-of-a-string) |
+## Simulation
+|  |
+| ------- |
+| [2361-calculate-digit-sum-of-a-string](https://github.com/rahulkr-24/leetcode_problems/tree/master/2361-calculate-digit-sum-of-a-string) |
 <!---LeetCode Topics End-->
